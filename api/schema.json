@@ -1,0 +1,40 @@
+[
+  {
+    "namespace": "zenSpaceAddons",
+    "functions": [
+      {
+        "name": "getSpaces",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      },
+      {
+        "name": "getActiveSpace",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      },
+      {
+        "name": "checkHealth",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      },
+      {
+        "name": "setRules",
+        "type": "function",
+        "async": true,
+        "parameters": [
+          {
+            "name": "rules",
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
